@@ -1,0 +1,41 @@
+/* 
+Color pallete. This section defines variables for the color pallete,
+so that we can refer to particular colors by name instead of hexadecimal values.
+This is applied to the 'root' psuedo-element, which just means that these color
+variables are available to be used anywhere in our html document
+*/
+:root {
+    --white-font: #FFFFFF;
+    --black-font: #000000;
+    --color1: #96A215;
+    --color2: #4E531C;
+    /* add in other color variables for color pallete */
+}
+
+/* Defines the main container size, we are limiting to 72em max and centring in the viewport */
+.main-container {
+    max-width: 72em;
+    margin: 0 auto;
+    font-family: Inter;
+    color: var(--white-font)
+    /* TODO: set the main font color */
+}
+
+/* Here we define the aspects of style of our elements other than their grid layout */
+.banner {
+    /* TODO: banner styling */
+    background-color: var(--color2);
+    padding: 1em;
+}
+
+.banner-title {
+    /* TODO: banner main title font styling */
+    font-size: 3em;
+}
+
+.banner-subtitle {
+    /* TODO: banner subtitle font styling */
+    font-size: 2.25em;
+    padding-left: 0.25em;
+    padding-top: 0.125em;
+}
