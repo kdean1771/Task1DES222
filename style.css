@@ -95,7 +95,7 @@
     background-color: #96A215;
     color: #FFFFFF;
     padding: 0.5rem;
-    height: 20rem;
+    min-height: 20rem;
 }
 
 #project-card-1 {
