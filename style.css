@@ -15,7 +15,8 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
         "ban ban ban ban ban ban ban ban ban ban ban ban"
-        "int int int int int int int int ini ini ini ini";
+        "int int int int int int int int ini ini ini ini"
+        "pc1 pc1 pc1 pc2 pc2 pc2 pc3 pc3 pc3 pc4 pc4 pc4";
 }
 
 .banner {
@@ -55,11 +56,60 @@
     padding-bottom: 1rem;
 }
 
-.intro-blurb {
-    /**/
-}
+
 
 .intro-reference {
     font-size: 0.75em;
     padding-top: 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.project-card-image {
+    width: 100%;
+}
+
+.project-card-title {
+    background-color: #4E531C;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.project-card-reference {
+    background-color: #4E531C;
+    color: #000000;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.project-card-text {
+    background-color: #96A215;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    height: 20rem;
+}
+
+#project-card-1 {
+    grid-area: pc1;
+}
+
+#project-card-2 {
+    grid-area: pc2;
+}
+
+#project-card-3 {
+    grid-area: pc3;
+}
+
+#project-card-4 {
+    grid-area: pc4;
 }
