@@ -9,7 +9,6 @@ variables are available to be used anywhere in our html document
     --black-font: #000000;
     --color1: #96A215;
     --color2: #4E531C;
-    /* add in other color variables for color pallete */
 }
 
 /* Defines the main container size, we are limiting to 72em max and centring in the viewport */
@@ -18,7 +17,6 @@ variables are available to be used anywhere in our html document
     margin: 0 auto;
     font-family: Inter;
     color: var(--white-font)
-    /* TODO: set the main font color */
 }
 
 /* Here we define the aspects of style of our elements other than their grid layout */
