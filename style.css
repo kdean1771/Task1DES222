@@ -37,6 +37,21 @@
         "coi coi coi coi cot cot cot cot"
         "bbn bbn bbn bbn bbn bbn bbn bbn";
     }
+
+    .intro-image {
+        padding-bottom: 1rem;
+    }
+
+    .intro-reference {
+        font-size: 0.75rem;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+
+    .project-card-image {
+        max-height: 20rem;
+    }
+
 }
 
 @media (min-width: 75em) {
@@ -48,6 +63,14 @@
         "pc1 pc1 pc1 pc2 pc2 pc2 pc3 pc3 pc3 pc4 pc4 pc4"
         "coi coi coi coi coi cot cot cot cot cot cot cot"
         "bbn bbn bbn bbn bbn bbn bbn bbn bbn bbn bbn bbn";
+    }
+
+    .intro-image {
+        padding-bottom: 2rem;
+    }
+
+    .project-card-image {
+        min-height: 12rem;
     }
 }
 
@@ -82,7 +105,6 @@
     width: 100%;
     grid-area: ini; /* Assign grid area */
     padding-top: 1rem;
-    padding-bottom: 2rem;
 }
 
 .conclusion-image {
@@ -119,6 +141,7 @@
 .intro-reference {
     font-size: 0.75rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .conclusion-reference {
