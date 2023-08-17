@@ -12,7 +12,7 @@
     color: var(--white-font);
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
     grid-template-areas:
         "ban ban ban ban"
         "ini ini ini ini"
@@ -28,7 +28,7 @@
 
 @media (min-width: 50em) {
     .main-container {
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(8, auto);
         grid-template:
         "ban ban ban ban ban ban ban ban"
         "int int int int ini ini ini ini"
@@ -41,7 +41,7 @@
 
 @media (min-width: 75em) {
     .main-container {
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(12, auto);
         grid-template-areas:
         "ban ban ban ban ban ban ban ban ban ban ban ban"
         "int int int int int int int int ini ini ini ini"
